@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLOG DE RESERVA NATURAL</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#1b4332,#2d6a4f,#40916c);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    text-align:center;
+}
+
+.header{
+    margin-bottom:50px;
+}
+
+.header h1{
+    font-size:4rem;
+    margin-bottom:15px;
+    text-shadow:3px 3px 10px rgba(0,0,0,.3);
+}
+
+.header p{
+    font-size:1.4rem;
+    opacity:.95;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:25px;
+    padding:35px;
+    transition:.4s;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+    background:rgba(255,255,255,0.18);
+}
+
+.card h2{
+    margin-bottom:15px;
+    font-size:1.8rem;
+}
+
+.card p{
+    margin-bottom:25px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    color:#1b4332;
+    background:white;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#d8f3dc;
+    transform:scale(1.05);
+}
+
+.footer{
+    margin-top:50px;
+    font-size:.9rem;
+    opacity:.8;
+}
+
+.leaf{
+    font-size:5rem;
+    margin-bottom:15px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="leaf"></div>
+        <h1>BLOG DE RESERVA NATURAL</h1>
+        <p>Hecho por Julian y Max</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2> Parte 1</h2>
+            <p>
+                Conoce la ubicación, características geográficas,
+                elementos climáticos, hidrológicos y biológicos
+                de la Reserva de la Biosfera Montes Azules.
+            </p>
+
+            <a href="https://snk636805-lgtm.github.io/PARTE1.html/" class="btn">
+                Ver Parte 1
+            </a>
+        </div>
+
+        <div class="card">
+            <h2> Parte 2</h2>
+            <p>
+                Descubre los principales problemas ambientales,
+                especies afectadas, causas de la deforestación
+                y posibles soluciones.
+            </p>
+
+            <a href="https://snk636805-lgtm.github.io/PARTE2.html/" class="btn">
+                Ver Parte 2
+            </a>
+        </div>
+
+        <div class="card">
+            <h2> Parte 3</h2>
+            <p>
+                Reflexión final sobre la importancia de conservar
+                la reserva, las alternativas propuestas y nuestra
+                perspectiva sobre la educación ambiental.
+            </p>
+
+            <a href="https://snk636805-lgtm.github.io/part3.html/" class="btn">
+                Ver Parte 3
+            </a>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
